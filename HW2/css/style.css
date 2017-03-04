@@ -1,0 +1,30 @@
+h1{font-family: Arial;
+  font-weight: bold;
+  color: #1f1f1f;
+
+}
+div.wrapper{width: 500px;
+            margin: 0 auto
+           }
+  h3{font-weight: bold;
+  }
+ .fio,
+ .frontend,
+ .contacts {border-bottom: 1px solid #C5C7C8;
+           }
+span.letter{font-size: 12px;
+            }
+img {width: 205px;
+     height: 205px;
+     margin-left: 80px;
+    }
+
+.set{
+    font-size: 14px;
+    color: black;
+    font-family: "Myriad Pro"
+  }
+.zifra {margin-left: 30px;
+         }
+.blue{color: blue;
+     }
