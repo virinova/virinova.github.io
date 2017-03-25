@@ -20,8 +20,15 @@ header {
 	margin-bottom: 30px;
    }
 
-h1 {
+h1  {
 	font-size: 40px;
+	
+}
+
+a {
+	text-decoration: none;
+    color: black;
+    font-weight: 600;
 }
 
 body {
@@ -31,13 +38,13 @@ body {
 
  /*NAVIGATION*/
 
-div.div1 {
+div.m-top {
 	
 	background-color: #4f4f4f
 
 }
 
-div.div1 ul {
+div.m-top ul {
 	list-style: none;
 	margin-bottom: 20px;
 }
@@ -47,9 +54,15 @@ div.div1 ul {
 	float: left;
 }
 	
+.m-top li:hover,
+.m-top li:active {
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+    background: #333333;
+    color: white;
+}
 
-
-div.div1 ul a {
+div.m-top ul a {
 	color: white;
 	text-decoration: none;
 	display: inline-block;
@@ -59,7 +72,7 @@ div.div1 ul a {
 
 /*SIDEBAR*/
 
-.div2 {
+.m-main {
 	width: 25%;
 	float: left;
 	margin-right: 30px;
@@ -71,16 +84,24 @@ nav {
 	clear: both;
 }
 
+
+
 nav ul {
 	list-style: none;
-	float: left;
 	border: gray solid 1px;
 }
 
+.m-main a:hover,
+.m-main a:active {
+	margin-left: 20px;
+	color: black;
+}
+
 nav li {
-	width:240px;
 	height:40px;
 }
+
+
 
 .bottom {
 	border-bottom: gray solid 1px;
@@ -89,9 +110,8 @@ nav li {
 
 
 nav ul a {
-	padding-left;
 	text-decoration: none;
-	display: inline-block;
+	display: block;
 	padding: 10px 25px;
 	color: gray;
 }
@@ -108,6 +128,10 @@ article {
 	width: 70%;
 }
 
+.photo {
+	max-width: 100%;
+}
+
 .content{
 	margin-left: 30px;
 	margin-top: 40px;
@@ -120,10 +144,9 @@ article {
 footer.footer {
 	box-sizing: border-box;
 	width: 100%;
-	padding: 10px;
+	padding-top: 20px;
 	background-color: #e1e1e1;
 	margin-top: 60px;
-	clear: both;
 }
 
 
@@ -134,7 +157,6 @@ footer ul li {
 
 footer ul { 
 	float: left;
-	padding-top: 10px;
 }
 
 	
@@ -144,19 +166,15 @@ footer ul li a {
 	margin: 0 20px;
 }
 
-ul li a.goods {
+.footer li:hover,
+.footer li:active{
 	text-decoration: underline;
 }
 
+
 span {
 	float: right;
-	padding: 10px 30px 10px 0px;
-}
-
-@media screen and (max-width: 600) {
-	sidebar {
-		display: none;
-	}
+	padding: 0px 30px 10px 0px;
 }
 
 
