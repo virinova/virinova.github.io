@@ -28,7 +28,9 @@ html {
 body {
     margin: 0;
 }
-
+li {
+list-slyle: none;
+}
 /**
  * Add the correct display in IE 9-.
  */
