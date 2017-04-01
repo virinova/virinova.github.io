@@ -47,8 +47,13 @@ div.m-top {
 div.m-top ul {
 	list-style: none;
 	margin-bottom: 20px;
+
 }
 
+.m-top ul li {
+	border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
 
 .header-item {
 	float: left;
@@ -93,7 +98,7 @@ nav ul {
 
 .m-main a:hover,
 .m-main a:active {
-	margin-left: 20px;
+	padding-left: 30px;
 	color: black;
 }
 
