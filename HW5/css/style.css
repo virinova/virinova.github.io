@@ -1,0 +1,281 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'helvetica_neueregular';
+    src: url('helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('helveticaneue-thin-webfont.woff') format('woff'),
+         url('helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+
+html {
+	height: 100%;
+}
+
+
+.wrapper {
+	font-family: 'helvetica_neueregular', Arial sans-serif;
+	max-width: 1215px;
+	min-height: 100vh;
+	/*background-size: cover;*/
+	margin: 0 auto;
+}
+
+header {
+
+	height: 36px;
+	vertical-align: middle;
+	background-color: #085697;
+	color: #339999;
+}
+
+.menu {
+	margin: 0 auto;
+	display: flex;
+  	flex-flow: row wrap;
+  	justify-content: flex-end;
+  	align-items: center;
+}
+
+header >ul >li {
+	align-items: center;
+	list-style: none;
+	display: flex;
+
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	padding: 10px;
+	border: 1px solid transparent;
+}
+
+.menu_link {
+	color: #339999;
+	
+
+}
+
+.white_menu_link {
+	color: white;
+	
+}
+
+.separator::before {
+ 	display: inline-block;
+	content: "";
+	width: 1px;
+	height: 90%;
+	background-color: #3399cc;;
+}
+
+.fa fa-flag {
+	font-size: 20px;
+	color: white;
+}
+
+.last_element_oflist {
+	margin-right: 20px;
+	color: white;
+	background: linear-gradient(to bottom, #50afdc, #2e7ac4);
+	height:37px;
+	padding-left:15px;
+}
+
+.last_element_oflist a {
+	color: white;
+	padding: 2px;
+
+}
+
+
+
+
+ .first_list a:hover,
+ .first_list a:active {
+    border: 1px solid #3399cc;
+   	background: #6699cc;
+    color: white;
+}
+
+.last_list a:hover,
+.last_list a:active {
+    border: 1px solid #3399cc;
+   	background: transparent;
+	text-decoration: underline;
+ }
+
+
+/*.class li:before {
+	display:block;
+	background-image: url(../img/);
+
+}*/
+
+.imagine {
+	max-width: 100%;
+	min-height: 1030px;
+	background-image: url(../img/Background-image.jpg);
+	background-repeat: no-repeat;
+	display: flex;
+	position: relative;
+
+}
+
+.middle-wrapper {
+	width: 562px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: auto;
+
+
+}
+
+.before_center_block {
+	display: flex;
+	background: rgba(51, 51, 51, 0.5);
+	width: 560px;
+	height: 62px;
+	margin-bottom: 1px;
+	color: white;
+	font-size: 24px;
+}
+
+
+
+.Cadastre-se {
+	margin: auto;
+	height: 50%;
+}
+
+.center_block {
+	width: 560px;
+	height: 550px;
+	margin-top: 2px;
+	background: rgba(51, 51, 51, 0.5);
+}
+
+
+.login {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.login a {
+	display: block;
+	background-image: url(../img/log_in.jpg);
+    background-repeat: no-repeat;
+    height: 37px;
+    width: 280px;
+    margin: auto;
+	text-decoration: none;
+    padding: 0;
+    border: 1px solid transparent;
+}
+
+form {
+	display: block;
+	height: 560px;
+	margin: 10px auto;
+	
+}
+
+fieldset {
+	width: 278px;
+    margin: auto;
+	border-top: 2px solid gray;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+}
+
+legend {
+	text-align: center;
+	padding: 0 10px;
+	color: gray;
+
+}
+
+.registration {
+	margin-bottom: 30px;
+}
+
+.registration input {
+	box-sizing: border-box;
+	border: 1px solid transparent;
+	width: 277px;
+	margin: 8px 0;
+	padding: 10px 12px;
+	background: #0f0f0f;
+	border-bottom-color: #494948;
+	color: white;
+}
+
+
+fieldset>p>input {
+	color: white;
+	background: transparent;
+	border: transparent;
+
+	
+}
+input::-webkit-input-placeholder {
+	color: white;
+}
+
+input:-moz-placeholder {
+	color: white;
+}
+
+.create_my_account {
+	text-align: center;
+	border: 1px solid transparent;
+	background: linear-gradient(to bottom, #50afdc, #2e7ac4);
+	width: 150px;
+	height: 35px;
+	padding: 8px 12px;
+	margin: 20px 60px;
+	color: white;
+}
+
+/*input [type-"text"] {
+	border: 1px solid #ccc;
+	width: 95%;
+	padding-left: 20px;
+}*/
+
+.registration input:focus,
+.registration input:hover {
+	border: 1px solid #39c;
+	background: linear-gradient(to bottom, #50afdc, #2e7ac4);
+	box-shadow: 0 0 30px 7px #6699cc;
+}
+
+
+.checkbox {
+	color: white;
+	border: 1px solid gray;
+}
+
+label {
+	color: white;
+}
+
+.agreement {
+	width: 320px;
+	font-size: 11px;
+	color: #c5c5c4;
+	text-align: center;
+	margin: auto;
+
+}
