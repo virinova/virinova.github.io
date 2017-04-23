@@ -23,16 +23,12 @@ html {
 
 .wrapper {
 	font-family: 'helvetica_neueregular', Arial sans-serif;
-	max-width: 1215px;
 	min-height: 100vh;
-	/*background-size: cover;*/
-	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
 }
 
 header {
-
-	height: 36px;
-	vertical-align: middle;
 	background-color: #085697;
 	color: #339999;
 }
@@ -60,7 +56,7 @@ a {
 }
 
 .menu_link {
-	color: #339999;
+	color: #60b5ed;
 	
 
 }
@@ -74,8 +70,8 @@ a {
  	display: inline-block;
 	content: "";
 	width: 1px;
-	height: 90%;
-	background-color: #3399cc;;
+	height: 36px;
+	background-color: #3399cc;
 }
 
 .fa fa-flag {
@@ -87,7 +83,7 @@ a {
 	margin-right: 20px;
 	color: white;
 	background: linear-gradient(to bottom, #50afdc, #2e7ac4);
-	height:37px;
+	height:39px;
 	padding-left:15px;
 }
 
@@ -96,9 +92,6 @@ a {
 	padding: 2px;
 
 }
-
-
-
 
  .first_list a:hover,
  .first_list a:active {
@@ -114,21 +107,12 @@ a {
 	text-decoration: underline;
  }
 
-
-/*.class li:before {
-	display:block;
-	background-image: url(../img/);
-
-}*/
-
 .imagine {
-	max-width: 100%;
-	min-height: 1030px;
 	background-image: url(../img/Background-image.jpg);
-	background-repeat: no-repeat;
+	background-position: center center;
 	display: flex;
-	position: relative;
-
+	background-size: cover;
+	flex-grow: 1;
 }
 
 .middle-wrapper {
@@ -160,7 +144,6 @@ a {
 
 .center_block {
 	width: 560px;
-	height: 550px;
 	margin-top: 2px;
 	background: rgba(51, 51, 51, 0.5);
 }
@@ -185,7 +168,7 @@ a {
 
 form {
 	display: block;
-	height: 560px;
+	/*height: 560px;*/
 	margin: 10px auto;
 	
 }
@@ -226,9 +209,10 @@ fieldset>p>input {
 	color: white;
 	background: transparent;
 	border: transparent;
-
-	
+	width: 150px;
+	height: 35px;	
 }
+
 input::-webkit-input-placeholder {
 	color: white;
 }
@@ -241,18 +225,9 @@ input:-moz-placeholder {
 	text-align: center;
 	border: 1px solid transparent;
 	background: linear-gradient(to bottom, #50afdc, #2e7ac4);
-	width: 150px;
-	height: 35px;
-	padding: 8px 12px;
 	margin: 20px 60px;
 	color: white;
 }
-
-/*input [type-"text"] {
-	border: 1px solid #ccc;
-	width: 95%;
-	padding-left: 20px;
-}*/
 
 .registration input:focus,
 .registration input:hover {
