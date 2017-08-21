@@ -1,0 +1,76 @@
+body, html {
+  width: 100%;
+  font-family: Myriad Pro, sans-serif;
+}
+
+.form {
+  background-color: white;
+}
+.title {
+	font: 15px 'Myriad Pro', sans-serif;
+}
+
+
+fieldset {
+	width: 565px;
+	height: 180px;
+}
+input {
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+#address {
+	margin-left: 10px;
+}
+button {
+	box-sizing: border-box;
+	width: 105px;
+	height: 35px;
+}
+
+.wrapper {
+	margin: 30px auto;
+  	width: 600px;
+
+}
+
+.tab {
+	margin: 10px 20px;
+}	
+.menu {
+	text-align: center;
+
+}
+
+li {
+	display: inline;
+	margin: 10px 20px;
+}
+
+a {	box-sizing: border-box;
+	padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+ 
+}
+
+/*.tab_item {
+	border: 1px solid 2px;
+	border-radius: 3px;
+
+}*/
+.tab_content {
+	margin-top: 20px;
+}
+
+ .active { color: red;
+  			border-bottom: #6495ED;
+  			 }
+
+  #tab1,
+  #tab2,
+  #tab3 {
+  	background-color: #6495ED;
+  }
