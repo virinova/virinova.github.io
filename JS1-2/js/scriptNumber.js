@@ -1,3 +1,4 @@
+
 (function () {
 
 function pow(x, n) {
@@ -10,23 +11,19 @@ function pow(x, n) {
   return result;
 }
 
+
+
+
 var x = prompt("x?", '');
 var n = prompt("n?", '');
-var num1 = parseInt(x);
 
- if (isNaN(x)) {
+ if (isNaN(x)|| n <= 0) {
       alert('Некорректное число');
       return (x);
     }
-if (n <= 1) {
-  alert('Степень ' + n +
-    'не поддерживается, введите целую степень, большую 1'
-  );
-} else {
+  else  {
   alert(pow(x, n));
   console.log(pow(x, n));
-}
+  }
 
 })();
-
-
